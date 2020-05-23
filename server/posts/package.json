@@ -7,7 +7,8 @@
     "author": "",
     "license": "ISC",
     "scripts": {
-        "test": "echo \"Self Believe :)\" && exit 0"
+        "test": "echo \"Self Believe :)\" && exit 0",
+        "start": "nodemon index.js"
     },
     "dependencies": {
         "body-parser": "1.19.0",
