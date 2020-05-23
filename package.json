@@ -1,0 +1,29 @@
+{
+    "name": "micro-services",
+    "version": "1.0.0",
+    "description": "MicroServices with Node",
+    "private": true,
+    "keywords": [],
+    "license": "ISC",
+    "author": {
+        "name": "Rupesh Kumar Singh",
+        "email": "itsprofcjs@gmail.com"
+    },
+    "scripts": {
+        "test": "echo \"No Test: Have faith \" && exit 0",
+        "update": "ncu -u && npm i",
+        "semantic-release": "semantic-release"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "husky": "4.2.5",
+        "pretty-quick": "2.0.1",
+        "prettier": "2.0.5",
+        "semantic-release": "17.0.7"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    }
+}
