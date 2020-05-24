@@ -1,6 +1,6 @@
 {
     "name": "micro-services",
-    "version": "1.0.0",
+    "version": "1.0.0-beta.1",
     "description": "MicroServices with Node",
     "private": true,
     "keywords": [],
@@ -16,6 +16,8 @@
     },
     "dependencies": {},
     "devDependencies": {
+        "@semantic-release/changelog": "5.0.1",
+        "@semantic-release/git": "9.0.0",
         "husky": "4.2.5",
         "pretty-quick": "2.0.1",
         "prettier": "2.0.5",
