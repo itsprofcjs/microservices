@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/itsprofcjs/microservices/compare/v1.0.0...v2.0.0) (2020-05-26)
+
+
+### Features
+
+* **blog:** Blog now available ([d33ae2b](https://github.com/itsprofcjs/microservices/commit/d33ae2b2a97991783c8c82395a9cca4092f86d4c))
+* **blog:** blog with microservices ([895dcff](https://github.com/itsprofcjs/microservices/commit/895dcffffde030b02e689bc29294fed33c2b3149))
+
+
+### BREAKING CHANGES
+
+* **blog:** This break the folder structure.Now Blog folder has all
+client and server (microservice) code.
+
 # [1.1.0-beta.1](https://github.com/itsprofcjs/microservices/compare/v1.0.0...v1.1.0-beta.1) (2020-05-26)
 
 
