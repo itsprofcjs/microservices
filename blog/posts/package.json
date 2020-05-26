@@ -1,5 +1,5 @@
 {
-    "name": "comment",
+    "name": "post",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,7 +8,7 @@
     "license": "ISC",
     "scripts": {
         "test": "echo \"Self Believe :)\" && exit 0",
-        "start": "nodemon index.js"
+        "start": "clear && nodemon index.js"
     },
     "dependencies": {
         "axios": "0.19.2",
