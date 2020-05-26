@@ -1,15 +1,15 @@
 {
-    "name": "comment",
+    "name": "moderation",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "scripts": {
+        "start": "clear && nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "scripts": {
-        "test": "echo \"Self Believe :)\" && exit 0",
-        "start": "clear && nodemon index.js"
-    },
     "dependencies": {
         "axios": "0.19.2",
         "body-parser": "1.19.0",
