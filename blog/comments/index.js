@@ -1,13 +1,15 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const { randomBytes } = require('crypto');
-const axios = require('axios');
+import express from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+
+import { randomBytes } from 'crypto';
+
+import axios from 'axios';
 
 const app = express();
 
-app.use(bodyParser.json());
 app.use(cors());
+app.use(bodyParser.json());
 
 const commentsByPostId = {};
 

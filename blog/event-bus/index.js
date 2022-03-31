@@ -1,8 +1,8 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
+import express from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
 
-const axios = require('axios');
+import axios from 'axios';
 
 const app = express();
 
@@ -24,7 +24,7 @@ app.post('/events', (req, res) => {
     res.send({ status: 'send' });
 });
 
-app.get('/events', (req, res) => {
+app.get('/events', (_, res) => {
     res.send(events);
 });
 

@@ -1,9 +1,7 @@
-import React from 'react';
-
 import PostCreate from './PostCreate';
 import PostList from './PostList';
 
-export default function App() {
+function App() {
     return (
         <article className="App container">
             <h1> Create Posts </h1>
@@ -14,3 +12,5 @@ export default function App() {
         </article>
     );
 }
+
+export default App;
